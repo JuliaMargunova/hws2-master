@@ -1,24 +1,26 @@
 
-body{
+body {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     line-height: 22px;
 }
+
 .App {
     --header_height: 60px;
     /*margin: 10% 70px;*/
 }
 
 .hw {
-display: flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     border-bottom: 1px solid #333;
     border-top: 1px solid #333;
-    padding: 0px 70px;
+    padding: 0px 70px 34px;
 }
 
 .hwTitle {
     font-size: 22px;
     line-height: 27px;
+    padding: 37px 70px 10px;
 }

@@ -4,8 +4,8 @@ import {MessageType} from "../HW1";
 import message from "./Message";
 
 // нужно создать правильный тип вместо any
-export type MessagePropsType= {
-    message:MessageType
+export type MessagePropsType = {
+    message: MessageType
 };
 
 // нужно отобразить приходящие данные
