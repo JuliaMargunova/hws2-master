@@ -5,8 +5,8 @@ import s from './Affairs.module.css'
 
 type AffairsPropsType = {
     data: Array<AffairType> // need to fix any
-    setFilter: (nextFilter:FilterType)=>void
-    deleteAffairCallback: (_id:number)=>void
+    setFilter: (nextFilter: FilterType) => void
+    deleteAffairCallback: (_id: number) => void
     filter: FilterType
 }
 
@@ -69,7 +69,8 @@ function Affairs(props: AffairsPropsType) {
                     Low
                 </button>
             </div>
-            <div className={s.affairs}>{mappedAffairs}</div>
+            <div
+                className={s.affairs + (props.filter !== 'all' ? ' ' + s.flexDirectionColumn : '')}>{mappedAffairs}</div>
         </div>
     )
 }
