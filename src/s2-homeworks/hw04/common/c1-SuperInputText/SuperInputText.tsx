@@ -55,6 +55,7 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
         + (className ? ' ' + s.className : '') // задача на смешивание классов
 
     return (
+
         <div className={s.inputWrapper}>
             <input
                 id={id}
