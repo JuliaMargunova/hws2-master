@@ -1,5 +1,6 @@
 .message {
-    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
 }
 
 .imageAndText {
@@ -7,6 +8,7 @@
     justify-content: flex-end;
     color: #FFFFFF;
     align-items: flex-end;
+    margin: 20px 0 0;
 }
 
 .imageAndText img {
@@ -18,7 +20,6 @@
 .text {
     box-shadow: 0px 5px 20px rgba(29, 33, 38, 0.03);
     background: #0066CC;
-    /*box-shadow:0px 1px 2px rgba(29, 33, 38, 0.1);*/
     margin-right: 10px;
     position: relative;
     border-radius: 10px;
@@ -34,24 +35,84 @@
     bottom: 0px;
     border: 10px solid transparent;
     border-bottom: 10px solid #0066CC;
-
 }
 
 .name {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
     text-align: end;
     margin: 1px 25px 3px 13px;
-    font-size: 18px;
 }
 
 .messageText {
     margin: 1px 25px 3px 13px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
 }
 
 .time {
-    text-align: end;
+    display: block;
+    text-align: right;
     font-weight: 600;
     font-size: 10px;
+    line-height: 12px;
+    margin: 5px 10px 0 0px;
 }
+
+/*.message {*/
+/*    margin-top: 47px;*/
+/*}*/
+
+/*.imageAndText {*/
+/*    display: flex;*/
+/*    justify-content: flex-end;*/
+/*    color: #FFFFFF;*/
+/*    align-items: flex-end;*/
+/*}*/
+
+/*.imageAndText img {*/
+/*    order: 2;*/
+/*    width: 48px;*/
+/*    height: 48px;*/
+/*}*/
+
+/*.text {*/
+/*    box-shadow: 0px 5px 20px rgba(29, 33, 38, 0.03);*/
+/*    background: #0066CC;*/
+/*    !*box-shadow:0px 1px 2px rgba(29, 33, 38, 0.1);*!*/
+/*    margin-right: 10px;*/
+/*    position: relative;*/
+/*    border-radius: 10px;*/
+/*    font-weight: 400;*/
+/*    font-size: 16px;*/
+/*    line-height: 20px;*/
+/*}*/
+
+/*.text:after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    right: -10px;*/
+/*    bottom: 0px;*/
+/*    border: 10px solid transparent;*/
+/*    border-bottom: 10px solid #0066CC;*/
+
+/*}*/
+
+/*.name {*/
+/*    text-align: end;*/
+/*    margin: 1px 25px 3px 13px;*/
+/*    font-size: 18px;*/
+/*}*/
+
+/*.messageText {*/
+/*    margin: 1px 25px 3px 13px;*/
+/*    font-weight: 400;*/
+/*    font-size: 16px;*/
+/*    line-height: 20px;*/
+/*}*/
+
+/*.time {*/
+/*    text-align: end;*/
+/*    font-weight: 600;*/
+/*    font-size: 10px;*/
+/*}*/

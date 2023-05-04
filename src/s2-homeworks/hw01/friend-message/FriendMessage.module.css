@@ -18,9 +18,6 @@
     margin-left: 10px;
     position: relative;
     border-radius: 10px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
 }
 
 .friendText:after {
@@ -34,6 +31,9 @@
 }
 
 .friendName {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
     margin: 1px 25px 3px 13px;
 }
 
@@ -42,5 +42,10 @@
 }
 
 .friendTime {
+    display: block;
+    text-align: left;
+    font-weight: 600;
     font-size: 10px;
+    line-height: 12px;
+    margin: 5px 0 0 10px;
 }
