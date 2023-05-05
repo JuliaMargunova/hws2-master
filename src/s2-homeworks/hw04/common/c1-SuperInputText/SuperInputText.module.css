@@ -3,19 +3,22 @@
 }
 
 .input {
-    border: 1px solid #D1D1D1;
-    border-radius: 5px;
     box-sizing: border-box;
     outline: none;
-    width: 100%;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    height: 36px;
+    width: 237px;
     font-weight: 500;
-    line-height: 1.25;
-    min-height: 2.25rem;
-    padding: 0.5em 0.75em;
-
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0px 7px;
 }
 
 .inputWrapper {
+    display: flex;
+    flex-direction: column-reverse;
+
 }
 
 .superInput {
