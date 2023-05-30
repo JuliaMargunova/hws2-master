@@ -1,23 +1,137 @@
 .item {
+    grid-template-rows: 48px;
+    grid-auto-rows: 48px;
+    align-items: center;
+    border-bottom: 1px solid #E5E5E5;
 }
 
 .item:last-of-type {
+    border-bottom: none;
 }
 
 .users {
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300 !important;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
 }
 
 .buttonsContainer {
+    margin-top: 9px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
 }
 
 .container {
+    max-width: 606px;
 }
 
 .thead {
+    display: grid;
+    align-items: center;
+    background: #E5E5E5;
+    color: #000000;
 }
 
+/*.thead .nameCol {
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}*/
 .nameCol {
+    padding-left: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+   /* font-weight: 300 !important;*/
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
 }
 
 .ageCol {
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
 }
+
+tr {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 36px;
+    grid-auto-rows: 36px;
+}
+
+/*
+.item {
+    height: 36px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.item:last-of-type {
+    border-bottom: none;
+}
+
+.users {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.buttonsContainer {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    width: 606px;
+}
+
+.thead {
+    background: #E5E5E5;
+    display: grid;
+}
+
+.nameCol {
+    padding-left: 17px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.ageCol {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.thead .nameCol {
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+tr{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 36px;
+    grid-auto-rows: 36px;
+}
+*/
